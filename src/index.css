@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: RobotoSlab;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: purple;
+  border-radius: 10px;
+}
+
+#root {
+  font-family: RobotoSlab;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.homepage-fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.message_right{
+  width: calc(100% - 3rem)
+}
+
+/* Success Button Style */
+.submit_btn {
+  @apply rounded-xl bg-purple-700 mt-8 mb-20 mx-auto px-2 w-80 text-white font-roboto-slab text-lg py-3 font-light;
+}
+
+
+
+.padri_stream{
+  background-image: url('/padri.png');
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 25px;
+}

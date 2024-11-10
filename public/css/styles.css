@@ -1,0 +1,33 @@
+.link_text{
+    font-size: 20px;
+    color: #C5C5C5;
+}
+
+.bg-purple-700 {
+	--tw-bg-opacity: 1;
+	background-color: #5C358C!important;
+}
+
+.bg-purple-800 {
+	--tw-bg-opacity: 1;
+	background-color: #4d2d75!important;
+}
+
+.spec_header{
+    background-color: #5C358C;
+    padding: 2rem 0px 0.5rem 0px;
+}
+
+.participant{
+    border-radius: 35px;
+}
+
+.participant:hover .mic_img {
+    opacity: 1;
+}
+
+.extraCss{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
